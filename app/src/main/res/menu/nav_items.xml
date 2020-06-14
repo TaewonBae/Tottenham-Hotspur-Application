@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_tottenham"
+        android:icon="@drawable/tab_tottenham"
+        android:title="@string/nav_tottenham" />
+    <item
+        android:id="@+id/nav_stadium"
+        android:icon="@drawable/tab_home"
+        android:title="@string/nav_stadium" />
+    <item
+        android:id="@+id/nav_team"
+        android:icon="@drawable/tab_team"
+        android:title="@string/nav_team" />
+    <item
+        android:id="@+id/nav_match"
+        android:icon="@drawable/tab_calender"
+        android:title="@string/nav_match" />
+    <item
+        android:id="@+id/nav_analysis"
+        android:icon="@drawable/tab_soccer"
+        android:title="@string/nav_analysis" />
+</menu>

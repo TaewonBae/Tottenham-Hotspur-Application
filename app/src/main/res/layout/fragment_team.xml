@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamFragment"
+    android:orientation="vertical"
+    android:background="@color/tottenham_background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/first_team_member_image_id"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="@color/tottenham_background"
+                android:src="@drawable/first_team_main"
+                android:onClick="click_first_team"/>
+
+            <ImageView
+                android:id="@+id/coaching_staff_image_id"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@color/tottenham_background"
+                android:src="@drawable/first_team_main_coach"
+                android:onClick="click_first_team"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="@color/tottenham_background"
+                android:src="@drawable/tottenham_under23_main" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@color/tottenham_background"
+                android:src="@drawable/tottenham_under18_main" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@color/tottenham_background"
+                android:src="@drawable/tottenham_women_main" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tottenham Hostpur</string>
+
+    <string name="nav_tottenham">Tottenham</string>
+    <string name="nav_team">Team</string>
+    <string name="nav_match">Match</string>
+    <string name="nav_stadium">Stadium</string>
+    <string name="nav_analysis">Analysis</string>
+</resources>
